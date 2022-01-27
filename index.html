@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Decodificador ALura</title>
+        <link rel="stylesheet" href="Sytle_css/Sytle.css">        
+    </head>
+    <br>
+    <br>
+    <body>
+
+        <div class="texto">
+            <h1 class="titulo">código secreto</h1>
+        </div>
+
+        <main class="main">
+            <div class="form box">
+                <form action="">
+                    <h3 id=""><em>Apenas letras minúsculas, sem acento!</em></h3>
+                    <input class="texto-input" type="text" name="input-texto" id="input-texto" placeholder="insira o texto aqui">
+                    <input class="botao" type="button" onclick ="chamarcriptografar()" value="codificar!" id="botao-cripto">
+                    <input class="botao" type="button" onclick = "chamardescripto()"  value="decodificar!" id="botao-descripto">
+                </form>
+            </div>
+            <div class="msg box">
+                <h3 id="form1"><em>Mensagem codificada!</em></h3>
+                <input class="texto-input" type="text" id="msg"></input>
+                <input class="botao" type="button" onclick = "copy()" value="copiar" id="btn-copy">
+            </div>
+        </main>
+        <br>
+        <br>
+        <br>
+        <footer>
+            <nav>Criador por: Donny Hans Duarte da Costa - &copy 2022</nav>
+            <a  href="https://github.com/SenpaidaTi" id ="github">Github</a>
+            <a href="https://www.linkedin.com/in/donny-hans-duarte-da-costa-831229129/" id="linkedin">Linkedin</a>
+        </footer>
+        <ul class="squares">
+            <li></li>
+          </ul>
+        <script src="javascript/decode.js"></script>
+        <script src= "javascript/encode.js"></script>
+        <script src="javascript/animation.js"></script>      
+    </body>
+</html>
